@@ -61,7 +61,8 @@ This project is under [MIT](https://choosealicense.com/licenses/mit/) license.
 * [Writing files with Node.js](https://nodejs.dev/en/learn/writing-files-with-nodejs/)
 * [Kara-krzystan](https://github.com/kara-krzystan/note-taker)'s Note-taker 
 * [Express.Js's Routing](https://expressjs.com/en/guide/routing.html)
-* Heroku for the web application deployment
+* [chat.openai.com](http://chat.openai.com) to help me explain the code in a simple way.
+* [Heroku](https://devcenter.heroku.com/) for the web application deployment
 
 ## Acknowledgements and Credits
 - Jacob Carver - weekly boot camp tutor
