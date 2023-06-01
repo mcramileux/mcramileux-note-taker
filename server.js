@@ -14,7 +14,7 @@ const app = express();
 // Middleware for parsing application/json and urlencoded data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use('/api', api);
+// app.use('/api', api);
 
 app.use(express.static('public'));
 
@@ -35,9 +35,14 @@ app.get('*', (req, res) => {
   });
 
 // create new note ---PUT CODE HERE
+app.post('/api/notes', (req, res) => {
+  const createNote = 
+});
 
 // delete note -----PUT CODE HERE
-
+app.delete('/api/notes/:id', (req, res) => {
+  //add her
+});
 // Setting the listener to be activated in the server
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
