@@ -1,6 +1,7 @@
 // Followed the mini project's solved folder
 const path = require('path');
 const api = require('./routes/html.js');
+const fs = require('fs');
 
 // initializing for Heroku deployment
 const PORT = process.env.port || 3001;
@@ -9,7 +10,7 @@ const PORT = process.env.port || 3001;
 const express = require('express');
 // creating an instance of the express web app
 const app = express();
-// const fs = require('fs');
+
 
 // Middleware for parsing application/json and urlencoded data
 app.use(express.json());
@@ -37,11 +38,15 @@ app.get('*', (req, res) => {
 // create new note ---PUT CODE HERE
 app.post('/api/notes', (req, res) => {
   const createNote = 
+
+  fs.writeFileSync
 });
 
 // delete note -----PUT CODE HERE
 app.delete('/api/notes/:id', (req, res) => {
-  //add her
+  //add here
+
+
 });
 // Setting the listener to be activated in the server
 app.listen(PORT, () =>

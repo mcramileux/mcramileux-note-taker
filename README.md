@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-- TO EDIT
+- This is a basic note taking application with a frontend starter code called the Note Taker which can be used to write and save notes. The application uses an Express.js backend and will save and retrieve note data from a JSON file.
 
 ## Table of Contents
 - [MCRAMILEUX's Note Taker](#mcramileuxs-note-taker)
@@ -14,9 +14,7 @@
   - [License](#license)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Examples](#examples)
   - [Screenshots](#screenshots)
-  - [Video](#video)
   - [Contributions](#contributions)
   - [Questions](#questions)
   - [Tests](#tests)
@@ -25,33 +23,27 @@
   - [Author](#author)
 
 ## Technologies Used
-* JavaScript
+* HTML, CSS, and JavaScript (has been provided via Gitlab)
 * Node.js
-* Inquirer
-* SVG
-* Jest NPM package
-* Screencastify
-*  -----TO EDIT
+* Express.JS
+* npm packages
 
 ## License
 This project is under [MIT](https://choosealicense.com/licenses/mit/) license.
 
 ## Installation
 * Navigate to this [repository]---ADD THE LINK HERE.
-* Open your terminal and create a new folder for this project.
-* Clone the repository on your local machine.
+* Open your terminal on your local machine and clone the repository.
+* To install the npm packages, run npm i on your terminal.
+* Once done, deploy the repository in [Heroku]---ADD THE LINK HERE.
 
 ## Usage
-* 
-
-## Examples 
-* 
+* Run VS Code's terminal by typing npm i && npm start commands.
+* Once successfully run it, copy the link----ADD THE LINK HERE to the web browser.
+* Since this challenge includes Heroku deployment, navigate to this [site]---ADD HEROKU LINK HERE to add and delete the notes.
 
 ## Screenshots 
-
-
-## Video 
-* 
+* ----ADD PHOTOS HERE
 
 ## Contributions
 * Contributions to this project won't be accepted as this is the reflection of the author's work hence the following questions and answers. Furthermore, forking or creating a pull request is acceptable.
@@ -66,11 +58,15 @@ This project is under [MIT](https://choosealicense.com/licenses/mit/) license.
 * For testing jest, npm run test.
 
 ## References
-* 
+* [Writing files with Node.js](https://nodejs.dev/en/learn/writing-files-with-nodejs/)
+* [Kara-krzystan](https://github.com/kara-krzystan/note-taker)'s Note-taker 
+* [Express.Js's Routing](https://expressjs.com/en/guide/routing.html)
+* Heroku for the web application deployment
 
 ## Acknowledgements and Credits
-- Jacob Carver - weekly bootcamp tutor
+- Jacob Carver - weekly boot camp tutor
 - AskBCS Learning Assistants
+- The application's front end has been provided via [Gitlab](https://git.bootcampcontent.com/University-of-Adelaide/UADEL-VIRT-FSF-PT-03-2023-U-LOLC/-/tree/main/11-Express/02-Challenge) since this challenge is only focusing in the backend side of the application.
 
 ## Author
-- © 2023 mcramileux
+- © 2023 mcramileux (the backend part only)
