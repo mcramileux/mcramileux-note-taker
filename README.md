@@ -26,7 +26,7 @@
 * HTML, CSS, and JavaScript (has been provided via Gitlab)
 * Node.js
 * Express.JS
-* npm packages
+* uuid npm packages
 
 ## License
 This project is under [MIT](https://choosealicense.com/licenses/mit/) license.
@@ -59,10 +59,14 @@ This project is under [MIT](https://choosealicense.com/licenses/mit/) license.
 
 ## References
 * [Writing files with Node.js](https://nodejs.dev/en/learn/writing-files-with-nodejs/)
-* [Kara-krzystan](https://github.com/kara-krzystan/note-taker)'s Note-taker 
 * [Express.Js's Routing](https://expressjs.com/en/guide/routing.html)
+* [uuid npm packages](https://www.npmjs.com/package/uuid)
 * [chat.openai.com](http://chat.openai.com) to help me explain the code in a simple way.
-* [Heroku](https://devcenter.heroku.com/) for the web application deployment
+* [Heroku](https://devcenter.heroku.com/) for the web application deployment.
+* [GauriKhandke](https://github.com/GauriKhandke/Note-Taker)'s Note-Taker
+* [SylviaPrabudy](https://github.com/sylviaprabudy/note-taker/tree/master)'s Note-Taker
+* [Kara-krzystan](https://github.com/kara-krzystan/note-taker)'s Note-taker 
+* Express.JS' mini-project Develop folder
 
 ## Acknowledgements and Credits
 - Jacob Carver - weekly boot camp tutor
