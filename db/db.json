@@ -1,12 +1,17 @@
 [
     {
-        "title": "sunday",
-        "text": "go to church",
-        "id": "5f328970-73de-46fe-906f-4f1804a68309"
+        "title": "Pizza Night!",
+        "text": "Lazy Friday - binge watch Lost",
+        "id": "807d8a72-c229-4963-a82c-adc2b6210f6b"
     },
     {
-        "title": "monday",
-        "text": "go to work",
-        "id": "580ca852-23ca-47c1-ac59-d8521673af45"
+        "title": "Road trip to the tablelands",
+        "text": "do the waterfalls circuit",
+        "id": "91868cc8-a79c-429a-9b66-e9a2839bf12e"
+    },
+    {
+        "title": "Tidy up the office",
+        "text": "scan important documents ",
+        "id": "b3c704b6-7226-40dc-9017-f3a65b716114"
     }
 ]

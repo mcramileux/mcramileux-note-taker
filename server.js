@@ -22,7 +22,6 @@ const html = require('./routes/html.js');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-
 // serves as static files from the 'public' directory 
 // any files placed in the 'public' directory will be accessible by user visiting the server
 app.use(express.static('public'));
