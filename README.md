@@ -16,6 +16,8 @@
   - [Usage](#usage)
   - [Links](#links)
   - [Screenshots](#screenshots)
+  - [Localhost](#localhost)
+  - [Heroku deployment](#heroku-deployment)
   - [Contributions](#contributions)
   - [Questions](#questions)
   - [References](#references)
@@ -51,35 +53,43 @@ This project is under [MIT](https://choosealicense.com/licenses/mit/) license.
 * Heroku deployment: https://rocky-fjord-38162.herokuapp.com/
 
 
-## Screenshots 
-* Localhost
+## Screenshots
 
- - <img width="1164" alt="main-page" src="https://github.com/mcramileux/mcramileux-note-taker/assets/122607160/46728045-d930-49ca-990a-b6ca7e6007fe">
+## Localhost
 
+Main page
+  <img width="1164" alt="main-page" src="https://github.com/mcramileux/mcramileux-note-taker/assets/122607160/46728045-d930-49ca-990a-b6ca7e6007fe">
 
-- <img width="1506" alt="add-task" src="https://github.com/mcramileux/mcramileux-note-taker/assets/122607160/94e0a592-8e8f-4698-a7af-aa919cb298ea">
+  
+Adding task in the Note Taker
+  <img width="1506" alt="add-task" src="https://github.com/mcramileux/mcramileux-note-taker/assets/122607160/94e0a592-8e8f-4698-a7af-aa919cb298ea">
   
 
-- <img width="1506" alt="saved-task" src="https://github.com/mcramileux/mcramileux-note-taker/assets/122607160/25b019a0-9ca4-4ad2-b13b-36989b4f30b8">
+
+Showing that the last task has been saved
+  <img width="1506" alt="saved-task" src="https://github.com/mcramileux/mcramileux-note-taker/assets/122607160/25b019a0-9ca4-4ad2-b13b-36989b4f30b8">
   
 
--  <img width="1506" alt="deleted-task" src="https://github.com/mcramileux/mcramileux-note-taker/assets/122607160/dd954964-8e94-462d-a675-c30af5c0f307">
+
+Showing that the last tas has been deleted
+  <img width="1506" alt="deleted-task" src="https://github.com/mcramileux/mcramileux-note-taker/assets/122607160/dd954964-8e94-462d-a675-c30af5c0f307">
 
 
 
-* Heroku deployment
+## Heroku deployment
+- (Disclaimer: The author's realization is that once the web application has been deployed, the task that has shown above won't be carried onto the Heroku deployment. That's why, there's another set of screenshots showed under the Heroku deployment.)
 
+Heroku deployment main page
+  <img width="1337" alt="heroku-main" src="https://github.com/mcramileux/mcramileux-note-taker/assets/122607160/61863a40-bc92-4377-ad3c-ec92a4047c5a">
 
-- <img width="1337" alt="heroku-main" src="https://github.com/mcramileux/mcramileux-note-taker/assets/122607160/61863a40-bc92-4377-ad3c-ec92a4047c5a">
+Adding task in the Note Taker
+  <img width="1337" alt="created-task-heroku" src="https://github.com/mcramileux/mcramileux-note-taker/assets/122607160/f67b4b8c-ebc5-4697-8766-8e3ece0e9dc2">
 
+Showing that the last task has been saved
+  <img width="1337" alt="task-added-heroku" src="https://github.com/mcramileux/mcramileux-note-taker/assets/122607160/585615cf-5959-4992-ace1-cbfaf45b92c4">
 
-- <img width="1337" alt="created-task-heroku" src="https://github.com/mcramileux/mcramileux-note-taker/assets/122607160/f67b4b8c-ebc5-4697-8766-8e3ece0e9dc2">
-
-
-- <img width="1337" alt="task-added-heroku" src="https://github.com/mcramileux/mcramileux-note-taker/assets/122607160/585615cf-5959-4992-ace1-cbfaf45b92c4">
-
-
-- <img width="1337" alt="deleted-heroku" src="https://github.com/mcramileux/mcramileux-note-taker/assets/122607160/3ac9d2a5-f123-4a67-83d5-e5ae7775ae9c">
+Showing that the last tas has been deleted
+  <img width="1337" alt="deleted-heroku" src="https://github.com/mcramileux/mcramileux-note-taker/assets/122607160/3ac9d2a5-f123-4a67-83d5-e5ae7775ae9c">
 
 
 
