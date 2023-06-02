@@ -31,7 +31,14 @@ app.use(express.static('public'));
 app.use('/api', api);
 // use to handle requests for HTML pages or define routes for the app's main page
 app.use('/', html);
+// app.get('/notes', (req, res) =>
+//   res.sendFile(path.join(__dirname, '/public/notes.html'))
+// );
 
+// // GET Route for main page
+// app.get('/', (req, res) =>
+//   res.sendFile(path.join(__dirname, '/public/index.html'))
+// );
 
 // Setting the listener to be activated in the server
 app.listen(PORT, () =>

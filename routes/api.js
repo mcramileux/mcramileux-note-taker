@@ -9,12 +9,12 @@ const {
   } = require('../helpers/fsUtils');
 
 // GET route for retrieving all the notes
-notes.get('/notes', (req, res) => {
+router.get('/notes', (req, res) => {
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
 // GET Route for a specific note
-notes.post('/api/:id', (req, res) => {
+router.post('/api/:id', (req, res) => {
     const apiId = req.params.api_id;
   readFromFile('./db/db.json')
     .then((data) => JSON.parse(data))
@@ -28,14 +28,17 @@ notes.post('/api/:id', (req, res) => {
   
 // BONUS: delete note (+10points)
 // DELETE Route for a specific note
-notes.delete('/:id', (req, res) => {
-    const apiId = req.params.api_id;
+router.delete('/notes/:id', (req, res) => {
+    const apiId = req.params.id;
+    console.log(apiId)
     readFromFile('./db/db.json')
       .then((data) => JSON.parse(data))
       .then((json) => {
         // Make a new array of all notes except the one with the ID provided in the URL
-        const result = json.filter((note) => note.notes_id !== apiId);
-  
+        const result = json.filter((note) => note.id !== apiId);
+        console.log(apiId)
+        console.log(result)
+
         // Save that array to the filesystem
         writeToFile('./db/db.json', result);
   
@@ -45,7 +48,7 @@ notes.delete('/:id', (req, res) => {
   });
   
   // POST Route for a new UX/UI notes
- api.post('/notes', (req, res) => {
+router.post('/notes', (req, res) => {
     console.log(req.body);
 
     // creating new title and text 
@@ -55,7 +58,7 @@ notes.delete('/:id', (req, res) => {
       const newNote = {
         title,
         text,
-        notes_id: uuidv4(),
+        id: uuidv4(),
       };
   
       readAndAppend(newNote, './db/db.json');
@@ -66,4 +69,4 @@ notes.delete('/:id', (req, res) => {
   });
 
 // use to export the router from a module in Node.js.
-module.exports = api;
+module.exports = router;

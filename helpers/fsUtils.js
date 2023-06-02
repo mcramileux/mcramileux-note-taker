@@ -1,3 +1,4 @@
+// followed the mini-project's solved (helpers)folder
 const fs = require('fs');
 const util = require('util');
 
