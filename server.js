@@ -9,7 +9,7 @@ const express = require('express');
 const app = express();
 
 // initializing the PORT for Heroku deployment
-const PORT = process.env.port || 3001;
+const PORT = process.env.PORT || 3001;
 
 // calling server to the route files
 const api = require('./routes/api.js');
